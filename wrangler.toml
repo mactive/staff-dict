@@ -5,7 +5,7 @@ pages_build_output_dir = "./dist"
 
 
 [[r2_buckets]]
-binding = "R2_BUCKET"
+binding = "MY_BUCKET"
 bucket_name = "staff-dict"
 
 [[d1_databases]]

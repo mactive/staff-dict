@@ -41,6 +41,24 @@ export const GET = createRoute(async (c) => {
           {locations.length} <span className="px-1 text-sm">Locations</span>
         </button>
       </section>
+      <section className="my-12">
+        <h2 className="text-3xl pb-4 dark:text-white">Departments</h2>
+        <hr />
+        <ul className="list-disc list-inside">
+          {departments.map((department) => (
+            <li className="py-4 dark:text-white">{department.department_name}</li>
+          ))}
+        </ul>
+      </section>
+      <section className="my-12">
+        <h2 className="text-3xl pb-4 dark:text-white">Locations</h2>
+        <hr />
+        <ul className="list-disc list-inside">
+          {locations.map((location) => (
+            <li className="py-4 dark:text-white">{location.location_name}</li>
+          ))}
+        </ul>
+      </section>
       <section className="flex flex-wrap -mx-4">
         {employees.map((employee) => (
           <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 px-2 mb-4">
