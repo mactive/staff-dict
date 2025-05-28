@@ -20,7 +20,7 @@ export const POST = createRoute(async (c) => {
         },
       });
       console.log(`File uploaded successfully: ${key}`);
-      imageUrl = `https://pub-8d936184779047cc96686a631f318fce.r2.dev/${key}`;
+      imageUrl = `${c.env.MY_BUCKET_PUBLIC_URL}/${key}`;
     }
 
     const employeeData: Employee = {

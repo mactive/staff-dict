@@ -10,7 +10,8 @@ declare module 'hono' {
     Variables: {}
     Bindings: {
       DB: D1Database,
-      MY_BUCKET: R2Bucket
+      MY_BUCKET: R2Bucket,
+      MY_BUCKET_PUBLIC_URL: string
     }
   }
   interface ContextRenderer {

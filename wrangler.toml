@@ -12,3 +12,7 @@ bucket_name = "staff-dict"
 binding = "DB"
 database_name = "staff-dict"
 database_id = "88b77377-4324-4efb-9c96-d64e7abe39da"
+
+[[vars]]
+binding = "MY_BUCKET_PUBLIC_URL"
+value = "https://pub-64bf9127eb3f4d16ba91727a1bf50c1b.r2.dev"
