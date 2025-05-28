@@ -1,3 +1,5 @@
+Fork from https://github.com/lauragift21/staff-directory to https://github.com/mactive/staff-dict make some change
+
 # Staff Directory - Built with HonoX, Cloudflare Pages and D1
 
 Staff Directory is an intuitive Employee Resource Hub designed to simplify the way teams interact and collaborate. Built using the powerful combination of HonoX for backend logic, Cloudflare Pages for fast and secure hosting, and Cloudflare D1 for seamless database management.
@@ -43,10 +45,10 @@ To get a local copy up and running, follow these simple steps.
 5. Create a DB with Wrangler and copy config to wrangler.toml
    ```
    npx wrangler d1 create <DATABASE_NAME>
-   ``` 
+   ```
 6. Seed local DB with data
    ```sh
-   npx wrangler d1 execute <DATABASE_NAME> --local --file=./schema.sql   
+   npx wrangler d1 execute <DATABASE_NAME> --local --file=./schema.sql
    ```
 7. Create a bucket with Wrangler and copy config to wrangler.toml
    ```
@@ -60,10 +62,11 @@ To deploy this project on Cloudflare Pages, follow these steps after setting up 
 1. Push your code to a GitHub repository.
 2. Connect your GitHub repository to Cloudflare Pages.
 3. Set the build command:
-   
+
    ```sh
    npm run build
    ```
+
 4. Deploy your site.
 
 ## Contributing
